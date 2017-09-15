@@ -13,7 +13,7 @@ import com.publiccms.common.base.AbstractController;
 /**
  * 
  * IndexAdminController 统一分发Controller
- *
+ * 主要做模版分发，和IndexController一起做统一模版分发，数据读取操作由FreeMarker指令扩展来处理
  */
 @Controller
 public class IndexAdminController extends AbstractController {

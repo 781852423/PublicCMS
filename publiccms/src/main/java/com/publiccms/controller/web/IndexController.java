@@ -30,7 +30,7 @@ import com.sanluan.common.servlet.PageNotFoundException;
 /**
  * 
  * IndexController 统一分发Controller
- *
+ * 做统一模版分发，和IndexAdminController一起做，数据读取由FreeMarker指令扩展来处理
  */
 @Controller
 public class IndexController extends AbstractController {
